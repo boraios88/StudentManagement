@@ -21,6 +21,17 @@ class Stack : public List{
             return 0;
         }
 };
+class Queue : public List{
+    public:
+        void insert (int value)
+        {
+            cout <<"Queue insert"<<endl;
+        }
+        int eject ()
+        {
+            return 0;
+        }
+};
 
 int main ()
 {
